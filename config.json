@@ -1,0 +1,14 @@
+{
+    "desired_fs" : 48000,
+    "channel" : 0,
+	"min_duration": 0.02,
+	"max_duration": 10,
+	
+	"nfft" : 2048,
+    "win_len" : 2048,
+    "hop_ratio" : 8,
+
+    "dataset_folder" : ".",
+	
+	"annotations_file": "./annotations.txt"
+}
