@@ -1,9 +1,12 @@
 # Clustering of unknown sounds
 ## Description
-This repository gathers python and R scripts used to generate the output of the publication Calonge et al. (2024) Revised clusters of annotated unknown sounds in the Belgian part of the North Sea. 
+This repository gathers python and scripts (R and python) used to generate the output of the publication Calonge et al. (2024) Revised clusters of annotated unknown sounds in the Belgian part of the North Sea. 
 
 ## Installation
 Necessary python packages can be installed using conda with the environment.yml file, or with pip using requirements.txt.
+
+## Data
+To reproduce the results obtained, raw data can be downloaded from https://doi.org/10.14284/659 
 
 ## Usage
 The python scripts are to extract the acoustic features, train the CAE, and apply a grid search function as explained in the paper. 
